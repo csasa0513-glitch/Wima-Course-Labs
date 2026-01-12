@@ -3,16 +3,20 @@
 ## Mathematical Model
 The algorithm solves problems in the following standard form:
 - **max**: $z = c^T x$
-- **Subject to**: $Ax = b, \quad x \geq 0$
+- **subject to**: $Ax = b, \quad x \geq 0$
 
 ## Example Parameters
+
 Using the parameters provided in the assignment:
-**Objective Vector $c$ and Right-hand Side $b$:**
+
+**Vector $c$ and $b$:**
+
 $$
 c = \begin{bmatrix} 10 \\ 40 \\ 0 \\ 0 \\ 0 \end{bmatrix}, \quad b = \begin{bmatrix} 480 \\ 480 \\ 480 \end{bmatrix}
 $$
 
 **Constraint Matrix $A$:**
+
 $$
 A = \begin{bmatrix} 
 40 & 24 & 1 & 0 & 0 \\ 
