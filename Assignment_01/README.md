@@ -2,7 +2,7 @@
 
 ## Mathematical Model
 The algorithm solves problems in the following standard form:
-- **Maximize**: $z = c^T x$
+- **max**: $z = c^T x$
 - **Subject to**: $Ax = b, \quad x \geq 0$
 
 ## Example Parameters
