@@ -7,9 +7,19 @@ The algorithm solves problems in the following standard form:
 
 ## Example Parameters
 Using the parameters provided in the assignment:
-- $c = [10, 40, 0, 0, 0]^T$
-- $b = [480, 480, 480]^T$
-- $A = \left[ \begin{array}{ccccc} 40 & 24 & 1 & 0 & 0 \\ 14 & 48 & 0 & 1 & 0 \\ 0 & 60 & 0 & 0 & 1 \end{array} \right]
+**Objective Vector $c$ and Right-hand Side $b$:**
+$$
+c = \begin{bmatrix} 10 \\ 40 \\ 0 \\ 0 \\ 0 \end{bmatrix}, \quad b = \begin{bmatrix} 480 \\ 480 \\ 480 \end{bmatrix}
+$$
+
+**Constraint Matrix $A$:**
+$$
+A = \begin{bmatrix} 
+40 & 24 & 1 & 0 & 0 \\ 
+14 & 48 & 0 & 1 & 0 \\ 
+0 & 60 & 0 & 0 & 1 
+\end{bmatrix}
+$$
 
 ## Results
 - **Optimal Objective Value**: 388.5714
