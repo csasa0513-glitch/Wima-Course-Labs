@@ -1,11 +1,16 @@
-# Assignment 1: Linear Optimization
+# Linear Programming: Exhaustive Search 
 
-## Task 1: Exhaustive Search
-Implementation of the enumeration algorithm to find all basic feasible solutions of a polyhedron $\{x \in \mathbb{R}^n | Ax = b, x \geq 0\}$.
+## Mathematical Model
+The algorithm solves problems in the following standard form:
+- **Maximize**: $z = c^T x$
+- **Subject to**: $Ax = b, \quad x \geq 0$
 
-### Example Result 
+## Example Parameters
+Using the parameters provided in the assignment:
+- $c = [10, 40, 0, 0, 0]^T$
+- $b = [480, 480, 480]^T$
+- $A = \left[ \begin{array}{ccccc} 40 & 24 & 1 & 0 & 0 \\ 14 & 48 & 0 & 1 & 0 \\ 0 & 60 & 0 & 0 & 1 \end{array} \right]$
+
+## Results
+- **Optimal Objective Value**: 388.5714
 - **Optimal x**: `[6.8571, 8.0000, 13.7143, 0, 0]`
-- **Optimal z**: `388.5714`
-
-## Task 2: Runtime Analysis
-Experimental evaluation of the computational complexity as the problem size $m$ increases from 2 to 10. The results demonstrate the exponential growth of combinations in the exhaustive search method.
