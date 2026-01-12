@@ -28,3 +28,6 @@ $$
 ## Results
 - **Optimal Objective Value**: 388.5714
 - **Optimal x**: `[6.8571, 8.0000, 13.7143, 0, 0]`
+
+## Visualization
+![Optimal Solution Plot](feasible_region_plot.png)
