@@ -1,4 +1,5 @@
-# Linear Programming: Exhaustive Search 
+# Linear Programming Solver (Enumeration Method)
+This project implements the enumeration algorithm to solve linear programming problems, featuring both MATLAB and Python implementations with visualization.
 
 ## Mathematical Model
 The algorithm solves problems in the following standard form:
